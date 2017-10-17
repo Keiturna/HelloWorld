@@ -1,5 +1,6 @@
 # HelloWorld
 School Work - Hello World Project
-## La bronzette, c'est chouette
+## Lien du dépot
+https://github.com/Keiturna/HelloWorld.git
 
-## Banane à la con
+## Banane incrouayiable
