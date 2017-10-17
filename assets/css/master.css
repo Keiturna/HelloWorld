@@ -9,9 +9,16 @@ html, body{
     text-rendering: optimizeLegibility;
 }
 
+html{
+    overflow-y:hidden;
+}
+
 h1, h2, h3{
     font-family: 'Vidaloka', serif;
     margin:20px 0 10px 0;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-left:-20px;
 }
 
 p, span{
@@ -22,13 +29,44 @@ img{
     width:200px;
     height:auto;
     margin:0 auto;
+    filter: sepia(0%);
+    -webkit-transition: 0.3s -webkit-filter linear;
+    -moz-transition: 0.3s -moz-filter linear;
+    -moz-transition: 0.3s filter linear;
+    -ms-transition: 0.3s -ms-filter linear;
+    -o-transition: 0.3s -o-filter linear;
+    transition: 0.3s filter linear, 0.3s -webkit-filter linear;
+    
+    
+}
+
+img:hover{
+    filter: sepia(100%);
+    filter: hue-rotate(90deg);
 }
 
 .img{
     text-align: center;
+    margin-bottom: -5px;
 }
 
 .container{
     width:1200px;
     margin:0 auto;
 }
+
+
+footer{
+    background-color:#313131;
+    color:#fff;
+    height:100vh;
+    vertical-align: middle;
+    padding:20px;
+}
+
+footer p{
+    vertical-align: middle;
+    margin-top: 10px;
+    text-align: center;
+}
+
