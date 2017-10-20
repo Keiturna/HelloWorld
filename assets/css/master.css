@@ -19,6 +19,13 @@ h1, h2, h3{
     text-transform: uppercase;
     font-weight: 800;
     margin-left:-20px;
+    transition:all 0.5s ease-in-out;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.65);
+}
+
+h1:hover, h2:hover, h3:hover{
+    margin-left:0;
+    
 }
 
 p, span{
@@ -36,7 +43,7 @@ img{
     -ms-transition: 0.3s -ms-filter linear;
     -o-transition: 0.3s -o-filter linear;
     transition: 0.3s filter linear, 0.3s -webkit-filter linear;
-    
+    /* Wow */
     
 }
 
@@ -53,6 +60,7 @@ img:hover{
 .container{
     width:1200px;
     margin:0 auto;
+    padding:0 20px;
 }
 
 
