@@ -1,4 +1,6 @@
 /* MASTER.CSS POUR LE PROJET GITHUB TOUSSAH */
+@import "fonts/fonts.css";
+
 
 *, html, body {
     margin:0;
